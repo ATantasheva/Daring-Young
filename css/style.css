@@ -213,21 +213,21 @@ transition: all 0.3s ease 0s;
 
 .slider .slick-arrow.slick-prev{
    left: 0;
-   background: url('img/next2.svg') 0 0 / 100% no-repeat;
+   background: url('../img/next2.svg') 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next{
    right: 0;
-   background: url('img/next1.svg') 0 0 / 100% no-repeat;
+   background: url('../img/next1.svg') 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-prev:hover {
    cursor: pointer;
    opacity: 1;
-     background: url('img/next3.svg') 0 0 / 100% no-repeat;
+     background: url('../img/next3.svg') 0 0 / 100% no-repeat;
 }
 .slider .slick-arrow.slick-next:hover {
    cursor: pointer;
    opacity: 1;
-     background: url('img/next4.svg') 0 0 / 100% no-repeat;
+     background: url('../img/next4.svg') 0 0 / 100% no-repeat;
 }
 /*Буллеты*/
 .slider .slick-dots{
