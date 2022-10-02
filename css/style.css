@@ -57,7 +57,7 @@ box-shadow: inset -25px 0px 75px rgba(0, 0, 0, 0.15);
 
 .image {
    position: absolute;
-   background: url('/img/Group\ 157.svg') right top 100% repeat;
+   background: url('../img/Group\ 157.svg') right top 100% repeat;
    mix-blend-mode: multiply;
    height: 100%;
    width: 100%;
@@ -244,7 +244,7 @@ transition: all 0.3s ease 0s;
 }
 /* Активная точка по цвету слайда */
 .slider .slick-dots li.slick-active  button {
-   background: url('/img/dots\ green.svg') no-repeat;
+   background: url('../img/dots\ green.svg') no-repeat;
    width: 25px;
    height: 25px;
    border: 0px solid transparent;
