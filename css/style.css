@@ -232,24 +232,28 @@ transition: all 0.3s ease 0s;
 /*Буллеты*/
 .slider .slick-dots{
    display: flex;
-   align-items: center;
+   align-items: flex-start;
    justify-content: flex-start;
    margin: -150px 0px 150px 150px;
-   overflow: visible;
 }
 .slider .slick-dots li{
    list-style: none;
-   margin: 0px 25px 0px 0px;
+   margin: 0px 20px 0px 0px;
    z-index: 10;
+   position: relative;
 }
 /* Активная точка по цвету слайда */
 .slider .slick-dots li.slick-active  button {
-   background: url('../img/dots\ green.svg') no-repeat;
-   width: 25px;
-   height: 25px;
-   border: 0px solid transparent;
+   background: url('../img/dots.svg') no-repeat;
+   width: 35px;
+   height: 35px;
    opacity: 0.6;
-   
+   border: 0;
+   background-size: contain;
+ 
+}
+.slider .slick-dots li.slick-active  button:hover {
+   border: 0;
 }
 /* Элемент точки */
 .slider .slick-dots li button{
@@ -261,15 +265,24 @@ transition: all 0.3s ease 0s;
    border: 1px solid #fff;
 
 }
-.dots-color__rose  li button {
-   border: 1px solid #9C10B4;
-}
+/*
 .slider .slick-dots li button:hover {
    border: 1px solid #0ED984;
    cursor: pointer;
-}
-
-
+} */
+.junior__dot li button:hover {
+   border: 1px solid lime;
+   cursor: pointer;
+ }
+ .specialist__dot li button:hover {
+   border: 1px solid #3577F6;
+   cursor: pointer;
+ }
+ .director__dot li button:hover {
+   border: 1px solid #D72DF3;
+   cursor: pointer;
+ }
+ 
 /* items */
 .container {
    max-width: 1500px; /* padding не входит в ширину тк box-sizing: content-box */
